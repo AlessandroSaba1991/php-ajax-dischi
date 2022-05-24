@@ -75,4 +75,7 @@ $data_raw = '{
         }
     ]
 }';
-$data= json_decode($data_raw,true);
+$data = json_decode($data_raw, true);
+header('Content-Type: application/json');
+header('Access-Control-Allow-Origin: *');
+echo json_encode($data);
