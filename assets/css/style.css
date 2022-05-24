@@ -1,0 +1,25 @@
+:root {
+  --bg_Main: rgba(30, 45, 59, 1);
+  --bg_Header: rgba(46, 58, 70, 1);
+  --text_Main: rgba(128, 128, 128, 1);
+  --white: white;
+}
+header {
+  background-color: var(--bg_Header);
+  justify-content: space-between;
+  align-items: center;
+}
+/* Common */
+img {
+  max-width: 100%;
+}
+
+/* utility */
+
+.py_5 {
+  padding: 4rem 0;
+}
+
+.logo{
+  width: 40px;
+}
