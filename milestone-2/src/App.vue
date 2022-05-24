@@ -30,7 +30,7 @@ export default {
   },
   data() {
     return {
-      API_URL: "http://localhost/PHP/php-ajax-dischi/milestone-1/db.php",
+      API_URL: "http://localhost/PHP/php-ajax-dischi/milestone-1/db-vue.php",
       albums: null,
       error: null,
       loading: true,

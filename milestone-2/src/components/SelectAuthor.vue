@@ -25,7 +25,7 @@ export default {
   },
   data() {
     return {
-      API_URL: "https://flynn.boolean.careers/exercises/api/array/music",
+      API_URL: "http://localhost/PHP/php-ajax-dischi/milestone-1/db-vue.php",
       albums: null,
       error: null,
     };
