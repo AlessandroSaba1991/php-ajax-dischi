@@ -12,6 +12,7 @@ header {
 /* Common */
 img {
   max-width: 100%;
+  aspect-ratio: 1 / 1;
 }
 
 /* utility */
@@ -22,4 +23,26 @@ img {
 
 .logo{
   width: 40px;
+}
+
+main {
+  height: calc(100vh - 72px);
+  background-color: var(--bg_Main);
+  overflow: auto;
+}
+.card_album{
+  background-color: var(--bg_Header);
+  height: 100%;
+}
+
+.card_album h4{
+    color: var(--white);
+    text-transform: uppercase;
+    margin: 1.5rem 0;
+}
+.card_album h5,
+.card_album h6{
+    color: var(--text_Main);
+    font-weight: 400;
+    margin: 0;
 }
